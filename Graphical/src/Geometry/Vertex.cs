@@ -88,6 +88,9 @@ namespace Graphical.Geometry
         public static Vertex Origin()
         {
             return new Vertex(0, 0, 0);
+            //console
+           
+
         }
         #endregion
 

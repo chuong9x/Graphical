@@ -23,12 +23,12 @@ namespace Graphical.Graphs
         #endregion
 
         #region Private Constructors
-        private VisibilityGraph() : base()
+        public VisibilityGraph() : base()
         {
             baseGraph = new Graph();
         }
 
-        private VisibilityGraph(Graph _baseGraph, bool reducedGraph, bool halfScan) : base()
+        public VisibilityGraph(Graph _baseGraph, bool reducedGraph, bool halfScan) : base()
         {
             baseGraph = _baseGraph;
 
